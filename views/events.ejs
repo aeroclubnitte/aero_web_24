@@ -173,6 +173,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       padding: 10px;
       text-shadow: 1px 1px 3px rgba(87, 159, 223, 0.8); 
  }
+
+ .popup-content30{
+  position:fixed;
+      top: 42%;
+      left: 50%;
+      font-style:bold;
+      transform: translate(-50%, -50%);
+      background-color: hsl(191, 27%, 88%);
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 5 5 8px rgba(69, 228, 228, 0.985);
+      max-height: 80vh;
+      /* Set a maximum height for the content */
+      overflow-y: auto;
+      z-index: 9999;
+      
+      
+      /* Make the content scrollable */
+
+ }
+ .popup-content30 h2{
+      color: aqua; 
+      padding: 10px;
+      text-shadow: 1px 1px 3px rgba(87, 159, 223, 0.8); 
+ }
  .container_new {
     background: #0a2239;
  }
@@ -321,6 +346,7 @@ nav ul li:hover .dropdown1{
 .nav-menu{
   padding-left: 10px;
 }
+
 </style>
 
 
@@ -333,62 +359,63 @@ nav ul li:hover .dropdown1{
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
- <!-- ======= Header ======= -->
-  <header id="header" class=" header-transparent">
-  <div class="container_new2">
+   <!-- ======= Header ======= -->
+   <header id="header" class=" header-transparent">
+    <div class="container_new2">
 
       <div class="logo float-left" style="height: max-content;">
 
 
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="/home"><div  class="img-fluids"></div></a>
-        </div>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="/home"><div  class="img-fluids"></div></a>
+      </div>
 
 
 
-    <nav class="nav-menu float-right d-none d-lg-block ">
-
-      <ul>
-        <li ><a href="/home">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/events">Events</a></li> 
-        <li><a href="#">Achievements <i class="fa-solid fa-caret-down"></i></a>
-          <ul class="dropdown1">
-            <li><a href="/achievement#2024" class="whatsapp-link">2024</a></li>
-            <li><a href="/achievement#2023" class="whatsapp-link">2023</a></li>
-            <li><a href="/achievement#2022" class="whatsapp-link">2022</a></li>
-            <li><a href="/achievement#2019" class="whatsapp-link">2019</a></li>
-            <li><a href="/achievement#2018" class="whatsapp-link">2018</a></li>
-          </ul>
-        </li>
-        <li><a href="/gallery">Gallery</a></li>
-        <li><a href="#">Team<i class="fa-solid fa-caret-down"></i></a>
-          <div class="dropdown1">
-              <a href="/team#2020-24BATCH" class="whatsapp-link">2020-24 BATCH</a>
-              <a href="/team#2021-25BATCH" class="whatsapp-link">2021-25 BATCH</a>
-              <a href="/team#2022-26BATCH" class="whatsapp-link">2022-26 BATCH</a>
-              <a href="/team#2023-27BATCH" class="whatsapp-link">2023-27 BATCH</a> <!--class="whatsapp-link" is for maintaining colour-->
-          </div>
-      </li>
       
-      <li><a href="/mentors">Mentors</a></li>
-      
-        <li><a href="/contact">Contact Us</a></li>
-        <li class="dropdown">
-          <a href="#" style="padding-right: 100px;">Join Us <i class="fa-solid fa-caret-down"></i></span></a>
-          <ul class="dropdown1">
-            <li><a href="https://chat.whatsapp.com/FxJah3YRcNlKcBUyrEoWlP" class="whatsapp-link">Aero Club Nitte</a>
-            </li>
-            <li><a href="https://chat.whatsapp.com/JMdz3P5vWl31e6HPgweBZR" class="whatsapp-link">Aero Club Nitte
-                Alumni</a></li>
-          </ul>
+      <nav class="nav-menu float-right d-none d-lg-block ">
+        
+       <ul>
+          <li ><a href="/home">Home</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/events">Events</a></li> 
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Achievements <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/achievement#2024" class="whatsapp-link">2024</a></li>
+              <li><a href="/achievement#2023" class="whatsapp-link">2023</a></li>
+              <li><a href="/achievement#2022" class="whatsapp-link">2022</a></li>
+              <li><a href="/achievement#2019" class="whatsapp-link">2019</a></li>
+              <li><a href="/achievement#2018" class="whatsapp-link">2018</a></li>
+            </ul>
+          </li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Team<span class="caret"></span></a>
+            <div class="dropdown-menu">
+                <a href="/team#2020-24BATCH" class="whatsapp-link">2020-24 BATCH</a>
+                <a href="/team#2021-25BATCH" class="whatsapp-link">2021-25 BATCH</a>
+                <a href="/team#2022-26BATCH" class="whatsapp-link">2022-26 BATCH</a>
+                <a href="/team#2023-27BATCH" class="whatsapp-link">2023-27 BATCH</a> <!--class="whatsapp-link" is for maintaining colour-->
+            </div>
         </li>
-      </ul>
-    </nav><!-- .nav-menu -->
+          <li><a href="/mentors">Mentors</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-right: 100px;">Join Us <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://chat.whatsapp.com/FxJah3YRcNlKcBUyrEoWlP" class="whatsapp-link">Aero Club Nitte</a>
+              </li>
+              <li><a href="https://chat.whatsapp.com/JMdz3P5vWl31e6HPgweBZR" class="whatsapp-link">Aero Club Nitte
+                  Alumni</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav><!-- .nav-menu -->
 
-  </div>
-</header><!-- End Header -->
-
+    </div>
+  </header><!-- End Header -->
+<!-- End Header -->
 
   
     <main id="main">
@@ -413,13 +440,33 @@ nav ul li:hover .dropdown1{
              <h1 class="section-title" style="font-size: 3vh; color: rgba(1, 1, 66, 0.887);font-style: 'Montserrat' ; text-align:left ; ">
                <h2 style="width: 100%; text-align: center !important;color: #ffffff; "><strong>2024-2025</strong></h2> 
              </h1>
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500"></div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+          <div class="col-lg-4 col-md-6 filter-app">
+            <div class="portfolio-item">
+              <img src="assets\img\rcw24-25.png" id="solar" style="height:315px;" class="img-fluid" alt="" onclick="showPopup(this)">
+              <div id="popup1"  class="popup">
+                <div class="popup-content">
+                    <span id="solar_close" class="close" onclick="hidePopup(this)">&times;</span>
+                    <h2>RC Workshop</h2>
+                    <p>Aeroclub Nitte organized an RC Aeromodelling Workshop at NMAM Institute of Technology on October 5th and 6th, 2024, from 9:00 am to 5:30 pm. The event saw 149 participants from various branches, guided by 37 core team volunteers across 24 teams. Four glue stations and one simulation setup enhanced the learning experience, with each participant enjoying 5 minutes of simulation time. A dedicated team of 33 volunteers assisted on both days.
+                    </p>
+                </div>
+            </div>
+               <div class="project-name">
+                   <p>RC Workshop</p>
+              </div>
+            </div>
+        </div>
+
+
+
+
            <div class="col-lg-4 col-md-6 filter-app">
             <div class="portfolio-item">
-              <img src="\assets\img\quad_workshop_2024.jpg" id="hms" style="height:315px;" class="img-fluid" alt="" onclick="showPopup(this)">
-              <div id="popup5"  class="popup">
-                <div class="popup-content3">
-                    <span id="hms_close" class="close" onclick="hidePopup(this)">&times;</span>
+              <img src="\assets\img\quad_workshop_2024.jpg" id="solar" style="height:315px;" class="img-fluid" alt="" onclick="showPopup(this)">
+              <div id="popup1"  class="popup">
+                <div class="popup-content">
+                    <span id="solar_close" class="close" onclick="hidePopup(this)">&times;</span>
                     <h2>Quadcopter Workshop</h2>
                     <p>The Aeroclub Nitte conducted a Quadcopter Workshop at NMAMIT on 16-17 November 2024, with 57 participants divided into 10 teams and supported by 24-25 volunteers and a social media team.
                        The workshop included presentations on quadcopter basics, electronics, and mission planning, followed by hands-on assembly and simulations. 
@@ -435,10 +482,31 @@ nav ul li:hover .dropdown1{
             </div>
         </div>
 
+
+
+        
+        <div class="col-lg-4 col-md-6 filter-app">
+          <div class="portfolio-item">
+            <img src="assets\img\outreach_24.png" id="solar" style="height:315px;" class="img-fluid" alt="" onclick="showPopup(this)">
+            <div id="popup1"  class="popup">
+              <div class="popup-content">
+                  <span id="solar_close" class="close" onclick="hidePopup(this)">&times;</span>
+                  <h2>Outreach Tech-Talk </h2>
+                  <p>
+                    The AeroClub of NMAM Institute of Technology, in collaboration with the STACS Team of NRAM Polytechnic College, conducted an outreach talk on UAVs and RC planes on November 30th at Shambhavi Auditorium. Key topics, including UAV basics, quadcopter dynamics, RC planes, and avionics, were presented by AeroClub members. The session featured live demonstrations of RC planes and a quadcopter, offering attendees practical insights. The event successfully inspired interest in aeronautics among students and faculty
+                  </p>
+              </div>
+          </div>
+             <div class="project-name">
+                 <p>Outreach Tech-Talk </p>
+            </div>
+          </div>
+      </div>
+
          <h1 class="section-title" style="font-size: 3vh; color: rgba(1, 1, 66, 0.887);font-style: 'Montserrat' ; text-align:left ; ">
             <h2 style="width: 100%; text-align: center !important;color: #ffffff; "><strong>2023-2024</strong></h2> 
            </h1>
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+   
     
             <div class="col-lg-4 col-md-6 filter-app">
               <div class="portfolio-item" >
@@ -450,7 +518,9 @@ nav ul li:hover .dropdown1{
       
                         <span id="solar_close" class="close" onclick="hidePopup(this)">&times;</span>
                         <h2>RC Workshop</h2>
-                        <p>Students actively participated in the hands-on workshop, building their own RC planes. After completion, flying demonstrations were conducted by pilots led by Rathan Raj. Feedback forms revealed positive responses, with students appreciating the learning experience. Club seniors were present throughout the workshop to clarify doubts and assist participants.</p>
+                        <p>Students actively participated in the hands-on workshop, building their own RC planes. After completion, 
+                          flying demonstrations were conducted by pilots led by Rathan Raj. Feedback forms revealed positive responses, 
+                          with students appreciating the learning experience. Club seniors were present throughout the workshop to clarify doubts and assist participants.</p>
                          
                     </div>
                 </div>
@@ -458,7 +528,7 @@ nav ul li:hover .dropdown1{
                       <p>RC Workshop</p>
                   </div>
               </div>
-          </div>
+             </div>
          
 
 
@@ -529,10 +599,10 @@ nav ul li:hover .dropdown1{
 
              <div class="col-lg-4 col-md-6 filter-app">
               <div class="portfolio-item">
-                <img src="/assets/img/rc22.jpg" id="hms" style="height:315px;" class="img-fluid" alt="" onclick="showPopup(this)">
-                <div id="popup5"  class="popup">
-                  <div class="popup-content3">
-                      <span id="hms_close" class="close" onclick="hidePopup(this)">&times;</span>
+                <img src="/assets/img/rc22.jpg" id="hme" style="height:315px;" class="img-fluid" alt="" onclick="showPopup(this)">
+                <div id="popup50"  class="popup">
+                  <div class="popup-content30">
+                      <span id="hme_close" class="close" onclick="hidePopup(this)">&times;</span>
                       <h2>RC Workshop</h2>
                       <p>Aero Club Nitte conducted RC AEROMODELLING WORKSHOP for all four years of engineering students at NMAMIT college, on 3rd and 4th of December,2022. Workshop was held for two days from 9:00am to 5:00pm where building of radio -controlled planes with electronic components took place
                       </p>
@@ -556,7 +626,7 @@ nav ul li:hover .dropdown1{
                     </div>
                 </div>
                   <div class="project-name">
-            <p>Quadcopter Workshopr</p>
+            <p>Quadcopter Workshop</p>
         </div>
                 </div>
               </div>
@@ -778,6 +848,7 @@ nav ul li:hover .dropdown1{
     function closePrivacyPolicyPopup() {
         document.getElementById('privacyPolicyPopup').style.display = 'none';
     }
+    
 </script>
 
 <script>
@@ -791,8 +862,8 @@ nav ul li:hover .dropdown1{
       document.getElementById("popup3").style.display="flex";
     }else if (img.id=="acye"){
       document.getElementById("popup4").style.display="flex";
-    }else if (img.id=="hms"){
-      document.getElementById("popup5").style.display="flex";
+    }else if (img.id=="hme"){
+      document.getElementById("popup50").style.display="flex";
     }else if (img.id=="aps"){
       document.getElementById("popup6").style.display="flex";
     }else if (img.id=="hac"){
@@ -815,8 +886,8 @@ nav ul li:hover .dropdown1{
       document.getElementById("popup3").style.display="none";
     }else if(close.id=="acye_close"){
       document.getElementById("popup4").style.display="none";
-    }else if (close.id=="hms_close"){
-      document.getElementById("popup5").style.display="none";
+    }else if (close.id=="hme_close"){
+      document.getElementById("popup50").style.display="none";
     }else if (close.id=="aps_close"){
       document.getElementById("popup6").style.display="none";
     }else if (close.id=="hac_close"){
@@ -838,7 +909,7 @@ nav ul li:hover .dropdown1{
                 document.getElementById('uman'),
                 document.getElementById('haaps'),
                 document.getElementById('acye'),
-                document.getElementById('hms'),
+                document.getElementById('hme'),
                 document.getElementById('aps'),
                 document.getElementById('hac'),
                 document.getElementById('sd'),
@@ -893,6 +964,7 @@ nav ul li:hover .dropdown1{
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <!-- Template Main JS File -->
   <script src="../js/main.js"></script>
+  <script></script>
 
 </body>
 
