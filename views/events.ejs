@@ -37,6 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link  rel="stylesheet" href="style.css">
 
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link href="../vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="../vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="../vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -776,6 +777,7 @@ nav ul li:hover .dropdown1{
 .nav-menu{
   padding-left: 10px;
 }
+
 </style>
 
 
@@ -802,43 +804,43 @@ nav ul li:hover .dropdown1{
 
 
     <nav class="nav-menu float-right d-none d-lg-block ">
-
       <ul>
-        <li ><a href="/home">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/events">Events</a></li> 
-        <li><a href="#">Achievements <i class="fa-solid fa-caret-down"></i></a>
-          <ul class="dropdown1">
-            <li><a href="/achievement#2024" class="whatsapp-link">2024</a></li>
-            <li><a href="/achievement#2023" class="whatsapp-link">2023</a></li>
-            <li><a href="/achievement#2022" class="whatsapp-link">2022</a></li>
-            <li><a href="/achievement#2019" class="whatsapp-link">2019</a></li>
-            <li><a href="/achievement#2018" class="whatsapp-link">2018</a></li>
-          </ul>
+
+      <li ><a href="/home">Home</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/events">Events</a></li> 
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Achievements <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/achievement#2024" class="whatsapp-link">2024</a></li>
+              <li><a href="/achievement#2023" class="whatsapp-link">2023</a></li>
+              <li><a href="/achievement#2022" class="whatsapp-link">2022</a></li>
+              <li><a href="/achievement#2019" class="whatsapp-link">2019</a></li>
+              <li><a href="/achievement#2018" class="whatsapp-link">2018</a></li>
+            </ul>
+          </li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Team<span class="caret"></span></a>
+            <div class="dropdown-menu">
+                <a href="/team#2020-24BATCH" class="whatsapp-link">2020-24 BATCH</a>
+                <a href="/team#2021-25BATCH" class="whatsapp-link">2021-25 BATCH</a>
+                <a href="/team#2022-26BATCH" class="whatsapp-link">2022-26 BATCH</a>
+                <a href="/team#2023-27BATCH" class="whatsapp-link">2023-27 BATCH</a> <!--class="whatsapp-link" is for maintaining colour-->
+            </div>
         </li>
-        <li><a href="/gallery">Gallery</a></li>
-        <li><a href="#">Team<i class="fa-solid fa-caret-down"></i></a>
-          <div class="dropdown1">
-              <a href="/team#2020-24BATCH" class="whatsapp-link">2020-24 BATCH</a>
-              <a href="/team#2021-25BATCH" class="whatsapp-link">2021-25 BATCH</a>
-              <a href="/team#2022-26BATCH" class="whatsapp-link">2022-26 BATCH</a>
-              <a href="/team#2023-27BATCH" class="whatsapp-link">2023-27 BATCH</a> <!--class="whatsapp-link" is for maintaining colour-->
-          </div>
-      </li>
-      
-      <li><a href="/mentors">Mentors</a></li>
-      
-        <li><a href="/contact">Contact Us</a></li>
-        <li class="dropdown">
-          <a href="#" style="padding-right: 100px;">Join Us <i class="fa-solid fa-caret-down"></i></span></a>
-          <ul class="dropdown1">
-            <li><a href="https://chat.whatsapp.com/FxJah3YRcNlKcBUyrEoWlP" class="whatsapp-link">Aero Club Nitte</a>
-            </li>
-            <li><a href="https://chat.whatsapp.com/JMdz3P5vWl31e6HPgweBZR" class="whatsapp-link">Aero Club Nitte
-                Alumni</a></li>
-          </ul>
-        </li>
-      </ul>
+          <li><a href="/mentors">Mentors</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-right: 100px;">Join Us <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://chat.whatsapp.com/FxJah3YRcNlKcBUyrEoWlP" class="whatsapp-link">Aero Club Nitte</a>
+              </li>
+              <li><a href="https://chat.whatsapp.com/JMdz3P5vWl31e6HPgweBZR" class="whatsapp-link">Aero Club Nitte
+                  Alumni</a></li>
+            </ul>
+          </li>
+        </ul>
     </nav><!-- .nav-menu -->
 
   </div>
@@ -1392,6 +1394,7 @@ nav ul li:hover .dropdown1{
   <script src="../vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="../vendor/aos/aos.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="assets\js\bootstrap.bundle.min.js"></script>
   <!-- Template Main JS File -->
   <script src="../js/main.js"></script>
 
