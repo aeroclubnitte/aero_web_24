@@ -211,8 +211,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         grid-template-columns: 4fr; /* 1 member3 per row on very small screens */
     }
 }
-
-
+.masthead{
+    background-image: url('../img/team/coreteamFinal.png');
+    background-size: cover;
+    min-height: 120vh;
+    background-position: center;
+}
+@media (max-width: 768px){
+    .masthead{
+        min-height: 25vh;
+    }
+}
+@media (min-width:769px ) and ( max-width:1024px){
+    .masthead{
+        min-height: 40vh;
+    }
+}
 .col-md-6 {
     padding-top: 20px; /* Adjust the value according to your preference */
 }
@@ -234,6 +248,11 @@ html {
             background-size: cover;
             background-position: center;
             height: 100vh; /* Adjust height as needed */
+        }
+        @media (max-width: 768px){
+            .background-wrapper{
+                min-height: 50vh;
+            }
         }
         
         /* Semi-transparent overlay */
@@ -389,10 +408,10 @@ html {
 
 <body>
   
-  <div class="background-wrapper">
+  <div class="masthead img-fluid">
         <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKQ5F65G"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKQ5F65G"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
         <!-- End Google Tag Manager (noscript) -->
         
            <!-- ======= Header ======= -->
