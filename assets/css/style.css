@@ -2098,6 +2098,7 @@ section {
 }
 
 .portfolio .portfolio-item {
+    width: 100%;
     background: #1e4356;
     overflow: hidden;
     min-height: 200px;
@@ -2107,7 +2108,9 @@ section {
 }
 
 .portfolio .portfolio-item img {
-    object-fit: fill;
+    width: 100%;
+
+    object-fit: cover;
     transition: all 0.3s ease-in-out;
 }
 
