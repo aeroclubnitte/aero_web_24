@@ -2330,7 +2330,7 @@ h2{
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 15px;
-    color: #68a4c4;
+    color: darkblue;
 }
 
 .team .member .member-info p {
@@ -4227,7 +4227,7 @@ button {
     border: white;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: #c0c0c0;
+    background-color: white;
    
 
 }
